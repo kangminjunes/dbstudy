@@ -38,6 +38,8 @@
         ex) 성별의 제한: 남,여, 제한없음 
 */
 
+--고객 테이블
+DROP TABLE CUSTOMER_T;
 CREATE TABLE CUSTOMER_T (
     NO NUMBER NOT NULL PRIMARY KEY,
     ID   VARCHAR2(32 BYTE) NOT NULL UNIQUE , 
